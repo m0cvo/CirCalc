@@ -69,6 +69,12 @@ namespace CirCalc
             Ellipse circle = Circle1;
             circle.Width = Diameter;
             circle.Height = Diameter;
-        }   
+        }
+
+        private void HelpBtn_Click(object sender, RoutedEventArgs e)
+        {
+            HelpWindow helpWindow = new HelpWindow();
+            helpWindow.Show();
+        }
     }
 }

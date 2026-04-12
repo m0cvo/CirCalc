@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CirCalc"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="CirCalc" Height="450" Width="800">
     <Grid Margin="10,10,419,21">
 
         <Grid x:Name="Grid2" Background="lightblue">
@@ -23,6 +23,7 @@
             <TextBox x:Name="DBox" HorizontalAlignment="Left" Margin="171,196,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
             <TextBox x:Name="ABox" HorizontalAlignment="Left" Margin="171,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
             <TextBox x:Name="CBox1" HorizontalAlignment="Left" Margin="171,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+            <Button x:Name="HelpBtn" Content="Help" HorizontalAlignment="Left" Margin="29,351,0,0" VerticalAlignment="Top" Width="68" FontSize="14" Click="HelpBtn_Click"/>
         </Grid>
         <Grid x:Name="Grid3" Margin="404,0,-405,0" Background="LightGray">
             <Canvas x:Name="DrawBoard">
