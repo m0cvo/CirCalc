@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>turq.ico</ApplicationIcon>
+    <Title>CirCalc</Title>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="turq.ico" />
+  </ItemGroup>
 
 </Project>
