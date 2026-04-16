@@ -29,6 +29,7 @@ namespace CirCalc
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -73,6 +74,7 @@ namespace CirCalc
 
         private void CircleDraw()
         {
+            // Limit the size and draw the circle
             if ((Radius > 100))
             {
                 Radius = 100;
@@ -84,7 +86,7 @@ namespace CirCalc
             }
 
             Ellipse circle = Circle1;
-            circle.Width = Radius * 2; ;
+            circle.Width = Radius * 2; 
             circle.Height = Radius * 2;
         }
 
