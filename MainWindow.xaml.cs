@@ -66,9 +66,26 @@ namespace CirCalc
                 }
             }
 
+            CircleDraw();
+
+            
+        }
+
+        private void CircleDraw()
+        {
+            if ((Radius > 100))
+            {
+                Radius = 100;
+            }
+
+            if (Radius < 50)
+            {                 
+                Radius = 50;
+            }
+
             Ellipse circle = Circle1;
-            circle.Width = Diameter;
-            circle.Height = Diameter;
+            circle.Width = Radius * 2; ;
+            circle.Height = Radius * 2;
         }
 
         private void HelpBtn_Click(object sender, RoutedEventArgs e)
